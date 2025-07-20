@@ -1,5 +1,5 @@
 public class Palindrome {
-    public String reverseString(String str){
+    public String testPalindrome(String str){
         String result = "";
         int lastChar = str.length() - 1; 
         for (int i = 0; i < lastChar ; i++){
@@ -12,7 +12,7 @@ public class Palindrome {
         return result;
     }
     public void main(String[] args){
-        System.out.println(reverseString("race"));
+        System.out.println(testPalindrome("race"));
     
     }
 }
